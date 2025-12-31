@@ -9,7 +9,7 @@ from datetime import datetime
 
 sys.path.append(os.path.abspath('./src'))
 from preprocessing import load_train_data, run_preproc
-from scorer import make_pred
+from src.scorer import make_pred
 
 logging.basicConfig(
     level=logging.INFO,
